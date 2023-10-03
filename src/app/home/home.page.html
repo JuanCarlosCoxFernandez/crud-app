@@ -13,8 +13,121 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div id="guerras">
+    <ion-item>
+      <ion-row>
+        <ion-col>
+          <label>GUERRAS</label>
+          <ion-input label="Nombre" placeholder="Introduzca el nombre de la guerra"></ion-input>
+          <ion-input label="Año de inicio" placeholder="Introduzca el año de incio"></ion-input>
+          <ion-input label="Año de fin" placeholder="Introduzca el año en el que termino"></ion-input>
+          <ion-input label="Ganador" placeholder="Introduzca el ganador"></ion-input>
+          <ion-input label="Bando" placeholder="Introduzca a que bando pertenece"></ion-input>
+        </ion-col>
+        <ion-row>
+          <ion-col></ion-col>
+          <ion-col></ion-col>
+          <ion-col>
+            <ion-button>VER</ion-button>
+            <ion-button>AÑADIR</ion-button>
+            <ion-button>ELIMINAR</ion-button>
+            <ion-button>MODIFICAR</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-row>
+    </ion-item>
   </div>
+
+  <div id="paises">
+    <ion-item>
+      <ion-row>
+        <ion-col>
+          <label>PAISES</label>
+          <ion-input label="Nombre" placeholder="Introduzca el nombre del país"></ion-input>
+        </ion-col>
+        <ion-row>
+          <ion-col></ion-col>
+          <ion-col></ion-col>
+          <ion-col>
+            <ion-button>VER</ion-button>
+            <ion-button>AÑADIR</ion-button>
+            <ion-button>ELIMINAR</ion-button>
+            <ion-button>MODIFICAR</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-row>
+    </ion-item>
+  </div>
+
+  <div id="bandos">
+    <ion-item>
+      <ion-row>
+        <ion-col>
+          <label>BANDOS</label>
+          <ion-input label="Nombre" placeholder="Introduzca el nombre del bando en cuestión"></ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col>
+          <ion-button>VER</ion-button>
+          <ion-button>AÑADIR</ion-button>
+          <ion-button>ELIMINAR</ion-button>
+          <ion-button>MODIFICAR</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+  </div>
+
+  <div id="indepPais">
+    <ion-item>
+      <ion-row>
+        <ion-col>
+          <label>Independencia de los países</label>
+          <ion-input label="Nombre del País" placeholder="Introduzca el nombre del país"></ion-input>
+          <ion-input label="Año de inicio" placeholder="Año en el que empieza el periodo de independencia"></ion-input>
+          <ion-input label="Final de la independencia"
+            placeholder="Introduzca el año en el que acabo el ciclo de independencia(si termino el ciclo)"></ion-input>
+          <ion-input label="ID_País" placeholder="Introduzca el ID del país"></ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col>
+          <ion-button>VER</ion-button>
+          <ion-button>AÑADIR</ion-button>
+          <ion-button>ELIMINAR</ion-button>
+          <ion-button>MODIFICAR</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+  </div>
+
+  <div id="paisBandos">
+    <ion-item>
+      <ion-row>
+        <ion-col>
+          <label>Bando de País</label>
+          <ion-input label="ID_País" placeholder="Introduzca el ID del país"></ion-input>
+          <ion-input label="ID_Bando" placeholder="Introduzca el ID del bando al que pertenece el país"></ion-input>
+          <ion-input label="Año de inicio" placeholder="Introduzca el año en el que se unio al bando"></ion-input>
+          <ion-input label="Año de separación"
+            placeholder="Introduzca el año en el que se separo del bando"></ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col>
+          <ion-button>VER</ion-button>
+          <ion-button>AÑADIR</ion-button>
+          <ion-button>ELIMINAR</ion-button>
+          <ion-button>MODIFICAR</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+  </div>
+
 </ion-content>
